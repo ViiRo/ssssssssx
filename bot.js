@@ -13,7 +13,7 @@ channel.send(`**Houssem spam , Houssem spam , Houssem spam , Houssem spam Housse
 client.on('message', message => {
  if(message.author.id !== "524931248657793025" )return;
 
-let command = "1say"
+let command = "10say"
 
 if (!message.content.startsWith(command) || message.author.bot ) return;
 const args = message.content.slice(command.length).split(/ +/g).join(" ");
